@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">HttpURLConnectionExample</string>
+
+    <string name="labelmainactivity">My Leads</string>
+    <string name="labelnewleadactivity">Add New Lead</string>
+
+    <string name="textsource">Source</string>
+    <string name="textstatus">Status</string>
+    <string name="texttype">Type</string>
+    <string name="textsubmit">Submit</string>
 </resources>

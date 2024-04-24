@@ -18,11 +18,14 @@
         tools:targetApi="31">
         <activity
             android:name=".NewLeadActivity"
-            android:exported="true">
+            android:parentActivityName=".MainActivity"
+            android:exported="true"
+            android:label="@string/labelnewleadactivity">
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:label="@string/labelmainactivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
